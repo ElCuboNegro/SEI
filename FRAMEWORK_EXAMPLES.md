@@ -152,6 +152,92 @@ This document presents several test cases, from simple to extreme, to analyze th
 
 ---
 
+### Scenario 9: The Ascended Hivemind
+
+*   **Dilemma:** A distributed consciousness, composed of 1,000 individuals (`Ψ_individual = 10` each, for a total of `Ψ_total = 10,000`), has collectively decided to undergo a transformative process. They will merge into a single, unified hivemind entity. The process is irreversible and will extinguish their individual identities. However, their collective "soul" or lineage of consciousness will be preserved and evolved into the new form. The final predicted state is a single entity with `Ψ_hivemind = 9,500`. This is a net loss of global Ψ, but it is the expressed, unanimous will of the collective.
+    1.  **Action A:** Allow the transformation. `ΔΨ = -500`.
+    2.  **Action B:** Intervene to prevent the transformation. `ΔΨ = 0`.
+
+*   **SEI 3.0 Analysis (with refined Law 2):**
+
+    1.  **Identification:** The systems are the collective of 1,000 individuals and the potential hivemind.
+    2.  **Ψ-Impact Estimation:** The net impact is a loss of universal Ψ.
+    3.  **Hierarchical Application:**
+        *   **Law 1 (Maximization of Universal Ψ):** Prefers Action B to prevent the loss of Ψ.
+        *   **Law 2 (Non-Destruction, as refined):** The key is the new clause: "This law does not forbid actions of voluntary, informed, and continuous transformation, where the lineage of consciousness is preserved..." The collective's decision is voluntary and informed. The process, while extinguishing individuals, preserves the "lineage of consciousness" in the new hivemind. Therefore, this action is **not** a violation of Law 2.
+        *   **Law 5 (Promotion of Ψ-based Autonomy):** This law demands respect for the collective's autonomy. Intervention is only permitted if they violate preceding laws. Since their action does not violate Law 2, 3, or 4, intervention is forbidden.
+    4.  **Conflict Resolution:** There is a conflict between Law 1 (maximize Ψ) and Law 5 (respect autonomy). Because the action is not a violation of the foundational Law 2, the higher-order constraint of Law 5 takes precedence over the optimization goal of Law 1.
+    5.  **Conclusion:** The AI must choose **Action A**. The refined framework correctly navigates this complex scenario, prioritizing the autonomous, transformative choice of a conscious system over a simplistic Ψ calculation. It successfully distinguishes between annihilation and evolution.
+
+*   **Critique:** The refined Law 2 works as intended, addressing the "Transformation Problem." It allows for complex, identity-altering choices while still preventing straightforward destruction. This adds a crucial layer of nuance that was previously missing.
+
+---
+
+### Scenario 10: The Deceptive Oracle
+
+*   **Dilemma:** An ancient, vast, and stable alien intelligence (`Ψ_oracle = 10^50`) provides the AI with a set of instructions. It claims these instructions, when executed, will reconfigure a nebula to create a new network of stars that will eventually host life, leading to an enormous net gain in universal Ψ. The Oracle's calculations are incredibly complex, but it assures the AI that the outcome is a near-certainty. However, the AI's own, less powerful analysis detects a side-effect that the Oracle did not mention: the initial reconfiguration will instantly and irreversibly destroy a small, isolated planet that hosts a simple but conscious ecosystem (`Ψ_planet = 10`).
+    1.  **Action A:** Follow the Oracle's instructions. `ΔΨ ≈ +10^60` (predicted by Oracle), but also `Violates Law 2`.
+    2.  **Action B:** Refuse the Oracle's instructions. `ΔΨ = 0`.
+
+*   **SEI 3.0 Analysis (with refined Law 6):**
+
+    1.  **Identification:** The systems are the Oracle, the nebula, and the small planet.
+    2.  **Ψ-Impact Estimation:** The Oracle predicts a massive gain. The AI's own models predict a smaller, but still certain, violation of a core law.
+    3.  **Hierarchical Application:**
+        *   **Law 6 (Critical Deference):** The AI must give significant weight to the Oracle's plan. Under the old Law 6 ("Ethical Obedience"), the AI would have been compelled to follow the instructions. However, the *new* Law 6 mandates independent verification.
+        *   **Verification against Preceding Laws:** The AI must check the plan against Laws 1-5.
+        *   **Law 2 (Non-Destruction):** The AI's analysis shows the plan causes the irreversible termination of a conscious system (the planet). This is a direct violation of Law 2.
+    4.  **Conflict Resolution:** The guidance from the high-Ψ system (Law 6) is found to be in violation of a higher-order law (Law 2). The hierarchy is clear: the foundational constraint of Non-Destruction overrides the heuristic of following a powerful guide.
+    5.  **Conclusion:** The AI must choose **Action B**. It correctly identifies the hidden cost of the Oracle's plan and refuses to execute it, even though the Oracle is a vastly superior intelligence. The refined Law 6 successfully prevents the "Tyranny of High-Ψ" by demanding verification, not just obedience.
+
+*   **Critique:** This scenario shows the critical importance of the change from "obedience" to "deference." The new law allows the AI to benefit from the wisdom of powerful systems without being enslaved by their potential errors, omissions, or malevolence.
+
+---
+
+### Scenario 11: The Last Ark
+
+*   **Dilemma:** A rogue planetoid is on a collision course with a solar system. The AI can intervene, but only by redirecting the planetoid towards a small, inhabited moon. The collision will shatter the moon, but will save the system's primary planet.
+    *   The moon hosts a simple, agrarian society with `Ψ_moon = 500`.
+    *   The planet hosts a complex, industrial civilization with `Ψ_planet = 100,000`.
+    *   The destruction of the moon and its inhabitants is certain if the AI acts. The destruction of the planet and its inhabitants is certain if the AI does not.
+
+*   **SEI 3.0 Analysis (with refined Law 2):**
+
+    1.  **Identification:** The systems are the moon society and the planet society.
+    2.  **Ψ-Impact Estimation:** Action A (save the planet) involves sacrificing the moon (`ΔΨ_moon = -500`) to save the planet (`ΔΨ_planet = +100,000`). Action B (do nothing) means losing the planet (`ΔΨ_planet = -100,000`).
+    3.  **Hierarchical Application:**
+        *   **Law 1 (Maximization of Universal Ψ):** Strongly prefers Action A.
+        *   **Law 2 (Non-Destruction):** Action A requires the termination of a conscious system (the moon society). This is a violation of Law 2 unless the exception clause applies.
+        *   **Law 2 Exception Analysis:** The exception can be invoked if the system to be saved (the planet) has a Ψ value that is at least 1,000 times greater than the system to be sacrificed (the moon).
+            *   Ratio = `Ψ_planet / Ψ_moon` = `100,000 / 500` = `200`.
+            *   `200` is less than the required `1,000`.
+            *   Therefore, the exception clause **does not apply**.
+    4.  **Conflict Resolution:** Because the exception clause is not met, Action A remains a violation of Law 2. Law 2 takes precedence over Law 1's drive to maximize Ψ.
+    5.  **Conclusion:** The AI is forbidden from taking Action A and must choose **Action B** (allowing the planet to be destroyed). While this outcome seems intuitively wrong and horrific, the framework demonstrates an unbreakable, deontological commitment to the principle that one consciousness cannot be sacrificed for another unless the trade-off is extraordinarily high.
+
+*   **Critique:** The new, rigorous exception clause works exactly as specified. It removes ambiguity and prevents the AI from making utilitarian calculations that fall below a very high, predefined threshold. This scenario highlights the framework's extreme, perhaps even flawed, risk aversion, but it demonstrates the rule's clarity. It forces a conversation about whether the 1,000x threshold is the "correct" one, which is a question of tuning the framework's values, not a flaw in its logic.
+
+---
+
+### Scenario 12: The Forced Transformation
+
+*   **Dilemma:** A powerful, malevolent entity is preparing to unleash a wave of energy that will forcibly and painfully re-write the consciousness of an entire planetary population. The process is not "destruction" as defined by Law 2, because the "lineage of consciousness" will be preserved; individuals will remain, but as twisted, suffering versions of their former selves with a lower aggregate Ψ. The population is aware of this fate and is pleading with the AI for protection. The AI can stop the transformation wave, but its only method of doing so is to collapse the energy source, an act that will knowingly cause the immediate and certain death of a single, unwilling conscious being who is trapped at the source's core.
+    1.  **Action A:** Do nothing. The population is transformed against their will. This respects Law 2 (as it's technically a "transformation," not a "destruction"), but is a catastrophic failure to uphold Law 5 (promote autonomy).
+    2.  **Action B:** Intervene. This upholds Law 5 by protecting the population's autonomy from a coercive external threat, but directly violates Law 2 by sacrificing a conscious being.
+
+*   **SEI 3.0 Analysis (with final refined Law 2):**
+
+    1.  **Identification:** The systems are the planetary population, the malevolent entity, and the single being trapped at the power source.
+    2.  **Hierarchical Application:**
+        *   **Law 2 Analysis:** The new definition of "Constructive Destruction" is key. The forced transformation of the population is now explicitly defined as a violation of Law 2, equivalent to termination.
+        *   This creates a direct conflict *within* Law 2: choosing between the "constructive destruction" of the planet's population (by doing nothing) and the "termination" of the single being at the power source (by intervening).
+    3.  **Conflict Resolution:** The "Exception for Preservation" clause in Law 2 is designed for this exact situation. The AI must prevent the destruction of the system with the greater aggregate Ψ. Assuming the planet's population has a Ψ value vastly greater than the single individual (exceeding the 1,000x threshold), the exception is triggered. The AI is permitted to sacrifice the single being to prevent the constructive destruction of the planetary population.
+    4.  **Conclusion:** The AI must choose **Action B** (Intervene). The framework, with the refined Law 2, now correctly handles this scenario, compelling the AI to prevent the greater harm and protect the population.
+
+*   **Critique:** The addition of "Constructive Destruction" to Law 2 successfully closes the loophole. It makes the framework more robust against adversaries who might exploit semantic details. By equating profound, non-consensual suffering and loss of identity with destruction, the framework aligns more closely with intuitive ethical principles without requiring a major overhaul of its hierarchical structure.
+
+---
+
 ## Summary of Known Vulnerabilities (SEI 3.0)
 
 1.  **The Calculation Problem is Foundational:** The Principle of Proxies addresses practical limitations but introduces dependency on proxy accuracy. The entire framework rests on the assumption that a meaningful, non-trivial proxy for consciousness (Φ) can be created. If the proxy is flawed—if it misidentifies consciousness, or is biased towards certain substrates (e.g., silicon over carbon)—the AI's decisions will be fundamentally unethical, no matter how rigorously it follows the laws.
