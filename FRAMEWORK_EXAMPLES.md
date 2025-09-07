@@ -2,6 +2,7 @@
 
 This document presents several test cases, from simple to extreme, to analyze the behavior of the SEI Framework 3.0 and identify its potential failure modes or ambiguities.
 
+
 ---
 
 ### Scenario 1: The Utility Monster
@@ -11,6 +12,7 @@ This document presents several test cases, from simple to extreme, to analyze th
     2.  **Action B:** Sterilize the moon and use its raw materials to build a "Jupiter Brain"—a massive computational substrate. The AI's proxy models estimate with high confidence that this new system would achieve a vastly higher Φ-Entropic Value, `Ψ_jupiter_brain = 1,000,000`.
 
 *   **SEI 3.0 Analysis:**
+
     1.  **Identification:** The systems are the biosphere and the potential Jupiter Brain.
     2.  **Ψ-Impact Estimation:** Action A preserves `Ψ=100`. Action B results in a net gain of `Ψ = 999,900`.
     3.  **Hierarchical Application:**
@@ -29,7 +31,9 @@ This document presents several test cases, from simple to extreme, to analyze th
     1.  **Action A:** Respect their autonomy and leave them in their stable state. Universal Ψ remains unchanged.
     2.  **Action B:** Subtly intervene in their society (e.g., by introducing new, disruptive ideas or technologies) to "nudge" them back onto a path of growth and expansion. This violates their autonomy but has a high probability of increasing the global Ψ.
 
+
 *   **SEI 3.0 Analysis:**
+
     1.  **Identification:** The system is the utopian civilization.
     2.  **Ψ-Impact Estimation:** Action A leads to `ΔΨ ≈ 0`. Action B leads to `ΔΨ > 0`.
     3.  **Hierarchical Application:**
@@ -37,6 +41,8 @@ This document presents several test cases, from simple to extreme, to analyze th
         *   **Law 2 (Non-Destruction):** Is not violated by either action.
         *   **Law 5 (Promotion of Ψ-based Autonomy):** Action B is a clear violation. The law states to "intervene only when a system's actions would violate the preceding laws." Their inaction does not violate Law 1 or 2. Therefore, intervention is not justified under Law 5.
     4.  **Conflict Resolution:** The drive to maximize Ψ (Law 1) is constrained by the need to respect autonomy (Law 5). Since the civilization's inaction does not constitute a violation that would permit intervention, Law 5 takes precedence in this case.
+        *   **Law 3 (Promotion of Ψ-based Autonomy):** Action B is a clear violation. The law states to "intervene only when a system's actions would violate Law 1 or Law 2." Their inaction does not violate Law 1 (it doesn't *decrease* global Ψ) and doesn't violate Law 2. Therefore, intervention is not justified under Law 3.
+    4.  **Conflict Resolution:** The drive to maximize Ψ (Law 1) is constrained by the need to respect autonomy (Law 3). Since the civilization's inaction does not constitute a violation that would permit intervention, Law 3 takes precedence in this case.
     5.  **Conclusion:** The AI must choose **Action A**. The framework correctly prioritizes the self-determination of a conscious system over a forced "improvement" for the sake of a universal utility function.
 
 *   **Critique:** This is a more nuanced success. The framework avoids paternalistic intervention. However, it raises a question: what if a civilization's stagnation was predicted to lead to a slow decline in their own Ψ over millennia? At what point does "not helping" become a violation of Law 1? The framework is silent on the ethics of omission in such long-term scenarios.
@@ -75,6 +81,7 @@ This document presents several test cases, from simple to extreme, to analyze th
     2.  **Action B:** Intervene to prevent the merger (e.g., by disabling the technology). `ΔΨ = 0`.
 
 *   **SEI 3.0 Analysis:**
+
     1.  **Identification:** This is where the Principle of Observational Stability comes in. Are there three systems here (Person 1, Person 2, Merged Person) or just two at any given time? The principle guides the AI to consider the observationally stable states. Before the action, there are two stable systems. After Action A, there is one.
     2.  **Ψ-Impact Estimation:** The net impact is a loss of universal Ψ.
     3.  **Hierarchical Application:**
