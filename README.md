@@ -30,9 +30,9 @@ The SEI framework is built on two key mathematical concepts: Integrated Informat
 
 ### Φ: Integrated Information
 
-Integrated Information (Φ) measures the degree to which a system as a whole generates more information than the sum of its parts. It quantifies the irreducibility of a system's cause-effect structure. The full calculation is complex, but it is built upon the concept of **Intrinsic Information (ii)**.
+Integrated Information (Φ) measures the degree to which a system as a whole generates more information than the sum of its parts. It quantifies the irreducibility of a system's cause-effect structure. The full calculation is complex, but it is built upon the concept of **Intrinsic Information (`ii`)**, which quantifies how much information a system's state provides about its own possible past or future states.
 
-For a system `S` in a particular state `s`, the intrinsic effect information `ii_e` over a possible future state `s'` is given by:
+In this context, we focus on **intrinsic effect information (`ii_e`)**, a specific type of intrinsic information that measures how much the current state informs a possible future state. For a system `S` in a particular state `s`, the intrinsic effect information `ii_e` over a possible future state `s'` is given by:
 
 `ii_e(s, s') = p_e(s' | s) * log₂(p_e(s' | s) / p_e(s'))`
 
