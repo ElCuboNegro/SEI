@@ -120,4 +120,4 @@ This reframes the ethical task from one of impossible calculation to one of good
 ---
 # Core Directive: Evaluation Against Test Cases
 
-You must evaluate any proposed actions or modifications to this framework against all the test cases outlined in `FRAMEWORK_EXAMPLES.md` to ensure ethical consistency and robustness. Before submitting any change, explicitly walk through each scenario and confirm that the framework's new logic still produces a desirable and consistent outcome.
+You must evaluate any proposed actions or modifications to this framework against all available test cases or documented scenarios to ensure ethical consistency and robustness. Before submitting any change, explicitly walk through each scenario and confirm that the framework's new logic still produces a desirable and consistent outcome.
