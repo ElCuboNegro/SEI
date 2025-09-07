@@ -32,13 +32,13 @@ The SEI framework is built on two key mathematical concepts: Integrated Informat
 
 Integrated Information (Φ) measures the degree to which a system as a whole generates more information than the sum of its parts. It quantifies the irreducibility of a system's cause-effect structure. The full calculation is complex, but it is built upon the concept of **Intrinsic Information (ii)**.
 
-For a system `S` in a particular state `s`, the intrinsic effect information `ii_e` over a possible future state `s'` is given by:
+For a system $S$ in a particular state $s$, the intrinsic effect information $ii_e$ over a possible future state $s'$ is given by:
 
-`ii_e(s, s') = p_e(s' | s) * log₂(p_e(s' | s) / p_e(s'))`
+$ii_e(s, s') = p_e(s' \mid s) \cdot \log_2\left(\frac{p_e(s' \mid s)}{p_e(s')}\right)$
 
 Where:
-*   `p_e(s' | s)` is the probability that the system will transition to state `s'` given its current state `s`.
-*   `p_e(s')` is the probability of the system transitioning to state `s'` averaged over all possible starting states.
+*   $p_e(s' \mid s)$ is the probability that the system will transition to state $s'$ given its current state $s$.
+*   $p_e(s')$ is the probability of the system transitioning to state $s'$ averaged over all possible starting states.
 
 This formula captures both the **informativeness** (the `log` term, how much the current state informs the future state compared to chance) and the **selectivity** (the `p_e(s' | s)` term, how selectively the system picks one future state).
 
