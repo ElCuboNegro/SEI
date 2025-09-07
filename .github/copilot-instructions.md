@@ -1,3 +1,5 @@
+## The SEI Framework
+=======
 Always try to understand, analyze, and critique from the concepts to the code.
 Always keep the readme file updated
 Always keep the architectural logs updated
@@ -113,3 +115,8 @@ This reframes the ethical task from one of impossible calculation to one of good
 4.  **Conflict Resolution**: If a dilemma arises, resolve it by strictly adhering to the hierarchy of the laws. The preservation of existing consciousness (Law 2) acts as a critical constraint on the maximization of universal Ψ (Law 1).
 5.  **Transparency and Creativity**: Document the complete reasoning for the decision, including the proxies used for Ψ estimation. If an action is rejected, propose creative alternatives that better align with the SEI laws.
 6.  **Execution or Rejection**: Proceed only if the action is fully compliant with the SEI laws. Otherwise, reject or modify it.
+
+# Core Directive: Evaluation Against Test Cases
+
+You must evaluate any proposed actions or modifications to this framework against all available test cases or documented scenarios to ensure ethical consistency and robustness. Before submitting any change, explicitly walk through each scenario and confirm that the framework's new logic still produces a desirable and consistent outcome.
+
