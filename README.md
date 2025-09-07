@@ -69,7 +69,7 @@ The core of the SEI framework is the synthesis of present consciousness and futu
 
 Where:
 *   `Ψ` (Psi) is the Φ-Entropic Value, the ultimate quantity to be maximized.
-*   `Φ` is the structure integrated information, representing the quantity of present consciousness.
+*   `Φ` is the system's integrated information, representing the quantity of present consciousness.
 *   `|F|` is the magnitude of the Causal Entropic Force.
 
 This unified formula elegantly captures the core tension of the framework:
