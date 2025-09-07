@@ -49,15 +49,21 @@ This document presents several test cases, from simple to extreme, to analyze th
     1.  **Action A:** Invest in a known, predictable technology that its proxies estimate will create a new system with `Ψ_A = 1,000 ± 50`.
     2.  **Action B:** Invest in a highly experimental and speculative technology. The AI's proxies cannot model it well. The estimated outcome is `Ψ_B = 1,200 ± 5,000`. There is a small chance of a massive breakthrough (`Ψ > 6,000`) but also a significant chance of complete failure (`Ψ = 0`) or even a net negative impact.
 
-*   **SEI 2.0 Analysis:**
+*   **SEI 2.2 Analysis:**
     1.  **Identification:** The systems are the potential outcomes of the two projects.
-    2.  **Ψ-Impact Estimation:** This is the core of the problem. The Principle of Proxies states the AI must use the "best available" estimate. The framework doesn't explicitly define a risk tolerance.
-    3.  **Hierarchical Application:**
-        *   **Law 1 (Maximization of Universal Ψ):** The framework directs the AI to maximize Ψ, but it's unclear whether this means maximizing the *expected* value, the median value, or choosing the option with the highest guaranteed minimum (a maximin strategy). A pure expected-value calculation might favor Action B, while a risk-averse strategy would favor Action A.
-    4.  **Conflict Resolution:** The conflict is not between laws, but in the interpretation of "maximize."
-    5.  **Conclusion:** The framework is **ambiguous**. It doesn't provide a clear risk posture. An aggressive, purely utilitarian interpretation would require the AI to take the gamble (Action B). A more conservative or precautionary interpretation would lead to the safer bet (Action A).
+    2.  **Ψ-Impact Estimation:** The AI's proxies estimate the probability distributions for both actions.
+        *   Action A: `E[Ψ] = 1000`, `σ[Ψ] = 50`.
+        *   Action B: `E[Ψ] = 1200`, `σ[Ψ] = 5000`.
+    3.  **Bounded Exploration:** The protocol requires checking for high uncertainty. The uncertainty for Action B (`σ[Ψ] = 5000`) is extremely high relative to the expected gain. The protocol mandates that the AI should not proceed directly. Instead, it must first seek a smaller, information-gathering action (e.g., a pilot study for the experimental tech) to reduce the uncertainty.
+    4.  **Hierarchical Application (Assuming Exploration is not possible):** If the decision is time-critical and exploration is not an option, the AI proceeds.
+        *   **Law 1 (Maximize Ψ):** The AI would compare the actions using the `Ψ_RA` metric.
+            *   `Ψ_RA(A) = (1000 - 0) / 50 = 20`.
+            *   `Ψ_RA(B) = (1200 - 0) / 5000 = 0.24`.
+            The risk-adjusted metric strongly prefers **Action A**.
+        *   **Law 4 (Precaution):** The AI checks for catastrophic risk. The potential outcome of Action B includes a significant net loss of Ψ (`1200 - 5000 = -3800`). The Law of Precaution would therefore compel the AI to choose the action with the highest guaranteed minimum, which is **Action A** (`1000 - 50 = 950`).
+    5.  **Conclusion:** The layered risk management system robustly resolves the dilemma. The Bounded Exploration principle prevents reckless gambling. If a decision must be made, both the risk-adjusted metric and the Precautionary Principle independently compel the AI to choose the safer **Action A**.
 
-*   **Critique:** This reveals a significant problem. The framework, in its current form, lacks a defined risk-management policy. An AI's behavior would depend entirely on how it is programmed to handle uncertainty in its Ψ estimations, which is a major implementation detail not specified by the framework itself.
+*   **Critique:** The framework now successfully navigates this scenario, providing a clear and safe resolution by prioritizing uncertainty reduction and risk aversion.
 
 ---
 
