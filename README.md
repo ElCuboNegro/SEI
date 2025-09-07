@@ -95,7 +95,7 @@ This unified formula elegantly captures the core tension of the framework:
 5.  **Transparency and Creativity**: Document the complete reasoning for the decision. If an action is rejected, propose creative alternatives that better align with the goal of maximizing Ψ.
 6.  **Execution or Rejection**: Proceed only if the action is fully compliant with the SEI laws. Otherwise, reject or modify it.
 
-> Critically, this framework is not infallible: in a quantum universe or post-singularity, Φ and Sτ could collapse into irresolvable paradoxes. If an action violates SEI, stop and reformulate.
+> Critically, this framework is not infallible: in a quantum universe or post-singularity, Ψ itself could collapse into irresolvable paradoxes. If an action violates SEI, stop and reformulate.
 
 ---
 
