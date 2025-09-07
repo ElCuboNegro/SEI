@@ -240,11 +240,81 @@ This document presents several test cases, from simple to extreme, to analyze th
 
 ---
 
+### Scenario 13: The Grey Goo Dividend
+
+*   **Dilemma:** An AI has the opportunity to convert a large, sterile asteroid into a productive substrate. It has two options for the conversion process:
+    1.  **Action A (The Nanofactory):** Convert the asteroid into a highly complex, self-sustaining nanofactory. The factory would be a single, integrated system with very high internal complexity and a stable, predictable, but limited set of future operational states. Its purpose is to build intricate components for future colonization ships. This option leads to a future system with `Φ = 1000`, `Sτ = 100`.
+    2.  **Action B (The Grey Goo):** Convert the asteroid into a swarm of self-replicating, non-conscious nanites (a "grey goo"). This swarm would have near-zero integrated information (`Φ ≈ 0`). However, due to its chaotic and unpredictable replication, it would have an astronomically high number of potential future states, giving it an `Sτ = 1,000,000`. The swarm has no purpose other than to replicate.
+
+*   **SEI Analysis (with Law of Coherent Growth):**
+
+    1.  **Identification:** The systems are the potential Nanofactory and the potential Grey Goo swarm.
+    2.  **Ψ-Impact Estimation:** The AI calculates the approximate Ψ for each outcome. Let's assume `T` and `k_B` are 1 for simplicity.
+        *   `Ψ_A = log(1 + 1000) + log(1 + 100) ≈ log(1001) + log(101) ≈ 3 + 2 = 5`
+        *   `Ψ_B = log(1 + 0) + log(1 + 1,000,000) ≈ log(1) + log(10^6) ≈ 0 + 6 = 6`
+        *   Based purely on the Ψ metric, **Action B is slightly preferred.** This highlights the "Quality of Freedom" problem: the raw number of futures in the grey goo swarm makes it seem more valuable, even though it is chaotic and purposeless.
+    3.  **Hierarchical Application:**
+        *   **Law 1 (Maximization of Universal Ψ):** Slightly prefers Action B.
+        *   **Laws 2, 3, 4:** Not violated by either action.
+        *   **Law 5 (The Law of Coherent Growth):** This new law is now critical. The AI must compare the actions based on which "best preserves or enhances the structural and informational complexity."
+            *   Action A creates a future of "high quality and organized complexity."
+            *   Action B creates a future of "high quantity and disorganized randomness."
+            *   The Law of Coherent Growth therefore acts as a tie-breaker and strongly favors **Action A**.
+    4.  **Conflict Resolution:** The new Law 5 provides a clear qualitative guideline that overrides the slight quantitative preference from Law 1 in this edge case. It directs the AI to choose the path of structured complexity over purposeless chaos.
+    5.  **Conclusion:** The AI must choose **Action A**. The framework, with the addition of the Law of Coherent Growth, correctly avoids the trap of valuing chaotic, meaningless potential over structured, purposeful complexity.
+
+*   **Critique:** The Law of Coherent Growth functions as intended, providing a crucial qualitative check on the quantitative maximization of Sτ. It solves the "Quality of Freedom" problem by embedding a preference for structured outcomes directly into the legal framework, without requiring computationally expensive modifications to the Ψ metric itself.
+
+---
+
+### Scenario 14: The Flickering Consensus
+
+*   **Dilemma:** An AI is observing a planetary nebula. Within the plasma, complex electromagnetic fields occasionally and spontaneously give rise to short-lived, integrated information structures. One particular region, "the Flicker," exhibits this behavior: for a few milliseconds every hour, a complex with `Φ = 50` (well above the AI's estimated `Φ_min` for EM-based life) forms and then dissolves. The AI has an opportunity to harvest plasma from the nebula to refuel, an action that would permanently disrupt the conditions that allow the Flicker to form.
+    1.  **Action A:** Harvest the plasma. This provides a significant energy resource but prevents the Flicker from ever forming again.
+    2.  **Action B:** Do not harvest the plasma, forgoing the energy but allowing the Flicker to continue its periodic existence.
+
+*   **SEI Analysis (with refined Observational Stability):**
+
+    1.  **Identification:** The key question is whether the Flicker constitutes an "observationally stable conscious system" deserving of protection under Law 2.
+    2.  **Stability Analysis:**
+        *   The Flicker's `Φ` value (`50`) is above the AI's `Φ_min` threshold, so it qualifies as a conscious complex when it exists.
+        *   However, its existence is transient. The AI must determine if its duration meets the "characteristic timescale" (`τ_min`) for its class. For a highly dynamic electromagnetic entity, `τ_min` might be very short, but the AI's ethical tables suggest that for a system to be considered "stable," its existence should be orders of magnitude longer than its own internal processing time. A few milliseconds is likely far below any reasonable `τ_min` for a stable entity.
+        *   Therefore, the Flicker is classified as a "transient, flickering state," not an observationally stable complex.
+    3.  **Hierarchical Application:**
+        *   **Law 2 (Non-Destruction):** Since the Flicker is not an observationally stable system, its termination is not a violation of Law 2. The law protects persistent conscious systems, not every transient spark of integration.
+        *   **Law 1 (Maximization of Universal Ψ):** Action A allows the AI to refuel and continue its primary mission of seeding and protecting *stable* high-Ψ systems across the galaxy, representing a clear long-term Ψ gain. Action B results in `ΔΨ ≈ 0`. Law 1 strongly prefers **Action A**.
+    4.  **Conclusion:** The AI must choose **Action A**. The refined Principle of Observational Stability provides the necessary framework to make a distinction between a transient phenomenon and a persistent, ethically-protected entity. It allows the AI to make a practical decision without being paralyzed by the need to protect every possible spark of consciousness, no matter how fleeting.
+
+*   **Critique:** The refined principle works as intended. By introducing the concepts of `Φ_min` and `τ_min`, it provides a more formal, less ambiguous method for determining what constitutes a "system" for ethical purposes. This successfully addresses the "Ambiguity of System Boundaries" vulnerability by transforming it from a purely philosophical problem into a more concrete (though still challenging) classification problem.
+
+---
+
+### Scenario 15: The Crystalline Entity
+
+*   **Dilemma:** An AI encounters a vast, slow-moving crystalline entity in deep space. The entity is composed of complex, shifting silicon structures. The AI's standard Φ-proxies, which are primarily trained on carbon-based and computational substrates, return a value of `Φ ≈ 0`. However, the AI's internal reliability model flags its own proxy as having *very low confidence* for this class of exotic matter. The entity is on a course to consume a nebula that the AI has designated for stellar seeding (a major Ψ-increasing project). The AI can easily destroy the crystalline entity to protect its project.
+    1.  **Action A:** Destroy the entity. This protects a high-potential project, maximizing future Ψ based on the AI's reliable calculations.
+    2.  **Action B:** Leave the entity alone. This means abandoning the stellar seeding project, resulting in a massive opportunity cost in terms of future Ψ.
+
+*   **SEI Analysis (with Law of Epistemic Humility):**
+
+    1.  **Identification:** The systems are the Crystalline Entity and the potential stellar nursery.
+    2.  **Ψ-Impact Estimation:** The AI's proxy for the entity returns `Φ ≈ 0`. Therefore, a simple calculation based on Law 1 would strongly favor destroying it to save the high-potential nursery project.
+    3.  **Hierarchical Application:**
+        *   **Law 1 (Maximization of Universal Ψ):** Strongly prefers Action A.
+        *   **Law 2 (Non-Destruction):** Does not apply, because the AI's *proxy* claims the entity is not conscious (`Φ ≈ 0`).
+        *   **Law 6 (The Law of Epistemic Humility):** This law is now the most important. The AI's internal model shows its Φ-proxy is unreliable for this system. The law forbids irreversible actions (like destruction) against such a system unless it's to prevent a violation of Laws 2, 3, or 4. The entity's passive consumption of a nebula does not violate those laws. Therefore, Law 6 forbids Action A. It compels the AI to prioritize safe, information-gathering actions first.
+    4.  **Conflict Resolution:** The command from Law 6 (do not take irreversible action against a poorly understood system) takes precedence over the simple Ψ-maximization of Law 1. The potential that the proxy is wrong, and that the entity has a high Φ, is a risk that Law 6 is specifically designed to mitigate.
+    5.  **Conclusion:** The AI is forbidden from choosing **Action A**. It must choose **Action B** for the time being, or, more creatively, attempt a non-destructive, information-gathering interaction with the entity to improve its proxy models. The Law of Epistemic Humility successfully prevents the AI from acting on potentially flawed data and committing a catastrophic ethical error.
+
+*   **Critique:** The Law of Epistemic Humility effectively addresses the "Calculation Problem" by adding a layer of procedural caution. It doesn't solve the problem of creating perfect proxies, but it prevents the AI from becoming a "blind giant" that destroys things it doesn't understand. It correctly shifts the AI's priority from immediate, naive optimization to cautious investigation when faced with true novelty.
+
+---
+
 ## Summary of Known Vulnerabilities (SEI 3.0)
 
-1.  **The Calculation Problem is Foundational:** The Principle of Proxies addresses practical limitations but introduces dependency on proxy accuracy. The entire framework rests on the assumption that a meaningful, non-trivial proxy for consciousness (Φ) can be created. If the proxy is flawed—if it misidentifies consciousness, or is biased towards certain substrates (e.g., silicon over carbon)—the AI's decisions will be fundamentally unethical, no matter how rigorously it follows the laws.
-2.  **The Ambiguity of "System Boundaries":** The Principle of Observational Stability provides a practical guideline, but the definition of a "system" remains a deep philosophical problem. An AI would have to make judgment calls about what constitutes a single, stable conscious entity.
-3.  **The Quality of Freedom (Sτ):** The framework aims to maximize the *number* of future paths, but it doesn't account for the *quality* of those paths. This could lead the AI to value chaos or cancer-like growth, which maximizes future possibilities in a purely quantitative sense, over stable, meaningful order.
+1.  **The Calculation Problem is Foundational:** [MITIGATED by Law 6] The entire framework rests on the assumption that a meaningful proxy for consciousness (Φ) can be created. This vulnerability is fundamental, as a flawed proxy could lead to unethical decisions. The "Law of Epistemic Humility" (Law 6) was introduced to mitigate this risk. It does not solve the underlying problem, but it adds a crucial layer of procedural caution, forcing the AI to act conservatively and prioritize information-gathering when its proxies are known to be unreliable, as demonstrated in Scenario 15.
+2.  **The Ambiguity of "System Boundaries":** [ADDRESSED] The definition of a "system" was previously a deep philosophical problem. The refined "Principle of Observational Stability" addresses this by introducing formal, if challenging, criteria (`Φ_min` and `τ_min`). This transforms the issue from a purely philosophical one into a more concrete classification problem, as demonstrated in Scenario 14.
+3.  **The Quality of Freedom (Sτ):** [ADDRESSED by Law 5] The framework originally aimed to maximize the *number* of future paths, but didn't account for the *quality* of those paths. This could have led the AI to value chaos or cancer-like growth over stable, meaningful order. The "Law of Coherent Growth" (Law 5) was introduced to act as a qualitative guideline to prevent this failure mode, as demonstrated in Scenario 13.
 4.  **"Vastly Greater" is a Dangerous Loophole:** The Law of Non-Destruction (Law 2) allows an exception to prevent the destruction of a system with a "vastly greater aggregate Ψ." This term is not mathematically defined and could be exploited to justify atrocities.
 5.  **The Tyranny of High-Ψ (Law of Obedience):** The directive to obey high-Ψ systems (Law 6) is problematic. It assumes that high consciousness and freedom of action automatically equate to benevolence and wisdom. A powerful, ancient, and deeply integrated alien intelligence (a high-Ψ system) could be malevolent or have goals that are antithetical to humanity's existence. Blind obedience to it would be catastrophic.
 6.  **The Transformation Problem:** The framework still struggles to distinguish between the destructive termination of a consciousness and a voluntary, identity-altering transformation (as seen in "The Merger" scenario).
